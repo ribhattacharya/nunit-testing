@@ -1,0 +1,16 @@
+/Users/rishabhbhattacharya/Downloads/source-code-starter/TestNinja/TestNinja.UnitTests/bin/Debug/TestNinja.UnitTests.dll
+/Users/rishabhbhattacharya/Downloads/source-code-starter/TestNinja/TestNinja.UnitTests/bin/Debug/TestNinja.UnitTests.pdb
+/Users/rishabhbhattacharya/Downloads/source-code-starter/TestNinja/TestNinja.UnitTests/bin/Debug/nunit.framework.dll
+/Users/rishabhbhattacharya/Downloads/source-code-starter/TestNinja/TestNinja.UnitTests/bin/Debug/TestNinja.dll
+/Users/rishabhbhattacharya/Downloads/source-code-starter/TestNinja/TestNinja.UnitTests/bin/Debug/EntityFramework.dll
+/Users/rishabhbhattacharya/Downloads/source-code-starter/TestNinja/TestNinja.UnitTests/bin/Debug/Newtonsoft.Json.dll
+/Users/rishabhbhattacharya/Downloads/source-code-starter/TestNinja/TestNinja.UnitTests/bin/Debug/TestNinja.pdb
+/Users/rishabhbhattacharya/Downloads/source-code-starter/TestNinja/TestNinja.UnitTests/bin/Debug/TestNinja.dll.config
+/Users/rishabhbhattacharya/Downloads/source-code-starter/TestNinja/TestNinja.UnitTests/bin/Debug/nunit.framework.xml
+/Users/rishabhbhattacharya/Downloads/source-code-starter/TestNinja/TestNinja.UnitTests/bin/Debug/EntityFramework.xml
+/Users/rishabhbhattacharya/Downloads/source-code-starter/TestNinja/TestNinja.UnitTests/bin/Debug/Newtonsoft.Json.xml
+/Users/rishabhbhattacharya/Downloads/source-code-starter/TestNinja/TestNinja.UnitTests/obj/Debug/TestNinja.UnitTests.csproj.AssemblyReference.cache
+/Users/rishabhbhattacharya/Downloads/source-code-starter/TestNinja/TestNinja.UnitTests/obj/Debug/TestNinja.UnitTests.csproj.CoreCompileInputs.cache
+/Users/rishabhbhattacharya/Downloads/source-code-starter/TestNinja/TestNinja.UnitTests/obj/Debug/TestNinja.UnitTests.csproj.CopyComplete
+/Users/rishabhbhattacharya/Downloads/source-code-starter/TestNinja/TestNinja.UnitTests/obj/Debug/TestNinja.UnitTests.dll
+/Users/rishabhbhattacharya/Downloads/source-code-starter/TestNinja/TestNinja.UnitTests/obj/Debug/TestNinja.UnitTests.pdb
