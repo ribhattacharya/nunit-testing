@@ -3,12 +3,6 @@
 	<s:Boolean x:Key="/Default/Environment/Hierarchy/EntityFrameworkOptions/IsAlreadyNotifiedAboutEntityFramework/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e73e981e_002Dad89_002D4b3e_002Dbd73_002Df3b26c3f8449/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CanBeCancelledBy_Admin_True" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;NUnit3x::8E8D4279-A34E-4B36-822F-22D2AA4CD528::.NETFramework,Version=v4.8::TestNinja.UnitTests.ReservationTests&lt;/TestId&gt;
-    &lt;TestId&gt;NUnit3x::8E8D4279-A34E-4B36-822F-22D2AA4CD528::.NETFramework,Version=v4.8::TestNinja.UnitTests.MathTests.Add_CalledWith_ReturnsSumOfTwoArguments&lt;/TestId&gt;
-    &lt;TestId&gt;NUnit3x::8E8D4279-A34E-4B36-822F-22D2AA4CD528::.NETFramework,Version=v4.8::TestNinja.UnitTests.MathTests.Max_CalledWith_ReturnsSumOfTwoArguments&lt;/TestId&gt;
-    &lt;TestId&gt;NUnit3x::8E8D4279-A34E-4B36-822F-22D2AA4CD528::.NETFramework,Version=v4.8::TestNinja.UnitTests.MathTests.Max_CalledWith_ReturnsMaxOfTwoArguments&lt;/TestId&gt;
-    &lt;TestId&gt;NUnit3x::8E8D4279-A34E-4B36-822F-22D2AA4CD528::.NETFramework,Version=v4.8::TestNinja.UnitTests.MathTests.GetOddNumbers&lt;/TestId&gt;
-    &lt;TestId&gt;NUnit3x::8E8D4279-A34E-4B36-822F-22D2AA4CD528::.NETFramework,Version=v4.8::TestNinja.UnitTests.HtmlFormatterTests.FormatAsBold_WhenCalled_ShouldEncloseContentWithStrongElements&lt;/TestId&gt;
-    &lt;TestId&gt;NUnit3x::8E8D4279-A34E-4B36-822F-22D2AA4CD528::.NETFramework,Version=v4.8::TestNinja.UnitTests.CustomerControllerTests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::8E8D4279-A34E-4B36-822F-22D2AA4CD528::.NETFramework,Version=v4.8::TestNinja.UnitTests.Mocking.VideoServiceTests&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

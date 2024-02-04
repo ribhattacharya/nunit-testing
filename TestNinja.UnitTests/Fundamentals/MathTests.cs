@@ -1,15 +1,15 @@
 using NUnit.Framework;
 using TestNinja.Fundamentals;
 
-namespace TestNinja.UnitTests
+namespace TestNinja.UnitTests.Fundamentals
 {
     [TestFixture]
     public class MathTests
     {
         private Math _math;
 
-        [OneTimeSetUp]
-        public void OneTimeSetup()
+        [SetUp]
+        public void Setup()
         {
             _math = new Math();
         }
@@ -17,7 +17,7 @@ namespace TestNinja.UnitTests
         [Test]
         [TestCase(1, 2, 3)]
         [TestCase(-1, -2, -3)]
-        public void Add_CalledWith_ReturnsSumOfTwoArguments(int x, int y, int z)
+        public void Add_WhenCalled_ReturnsSumOfTwoArguments(int x, int y, int z)
         {
             Assert.That(_math.Add(x,y), Is.EqualTo(z));
         }
@@ -26,7 +26,7 @@ namespace TestNinja.UnitTests
         [TestCase(1, 2, 2)]
         [TestCase(-1, -2, -1)]
         [TestCase(3, 3, 3)]
-        public void Max_CalledWith_ReturnsMaxOfTwoArguments(int x, int y, int z)
+        public void Max_WhenCalled_ReturnsMaxOfTwoArguments(int x, int y, int z)
         {
             Assert.That(_math.Max(x,y), Is.EqualTo(z));
         }
@@ -37,7 +37,8 @@ namespace TestNinja.UnitTests
         [TestCase(1, new [] {1})]
         public void GetOddNumbers(int limit, int[] oddNumbers)
         {
-            Assert.That(_math.GetOddNumbers(limit), Is.EqualTo(oddNumbers));
+            var result = _math.GetOddNumbers(limit);
+            Assert.That(result, Is.EqualTo(oddNumbers));
         }
     }
 }
