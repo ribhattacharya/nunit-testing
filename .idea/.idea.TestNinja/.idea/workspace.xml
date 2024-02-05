@@ -7,14 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b613b956-d289-41f7-8ac7-d21d5a32b67e" name="Default" comment="Add work till section 6">
-      <change afterPath="$PROJECT_DIR$/TestNinja.UnitTests/Mocking/BookingHelperTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNinja.UnitTests/Mocking/EmployeeControllerTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNinja/Mocking/BookingRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestNinja/Mocking/EmployeeStorage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="b613b956-d289-41f7-8ac7-d21d5a32b67e" name="Default" comment="Finish exercises till section 7">
+      <change afterPath="$PROJECT_DIR$/TestNinja.UnitTests/Mocking/HouseKeeperServiceTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNinja/Mocking/EmailSender.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNinja/Mocking/HouseKeeperService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestNinja/Mocking/StatementGenerator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestNinja/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestNinja/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNinja.UnitTests/Mocking/VideoServiceTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja.UnitTests/Mocking/VideoServiceTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNinja.UnitTests/TestNinja.UnitTests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja.UnitTests/TestNinja.UnitTests.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNinja.UnitTests/bin/Debug/TestNinja.UnitTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja.UnitTests/bin/Debug/TestNinja.UnitTests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNinja.UnitTests/bin/Debug/TestNinja.UnitTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja.UnitTests/bin/Debug/TestNinja.UnitTests.pdb" afterDir="false" />
@@ -26,13 +24,9 @@
       <change beforePath="$PROJECT_DIR$/TestNinja.UnitTests/obj/Debug/TestNinja.UnitTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja.UnitTests/obj/Debug/TestNinja.UnitTests.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNinja.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNinja/Mocking/BookingHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja/Mocking/BookingHelper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNinja/Mocking/EmployeeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja/Mocking/EmployeeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNinja/Mocking/InstallerHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja/Mocking/InstallerHelper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNinja/Mocking/VideoService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja/Mocking/VideoService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNinja/TestNinja.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja/TestNinja.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNinja/bin/Debug/TestNinja.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja/bin/Debug/TestNinja.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNinja/bin/Debug/TestNinja.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja/bin/Debug/TestNinja.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNinja/obj/Debug/TestNinja.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja/obj/Debug/TestNinja.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNinja/obj/Debug/TestNinja.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja/obj/Debug/TestNinja.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNinja/obj/Debug/TestNinja.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja/obj/Debug/TestNinja.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestNinja/obj/Debug/TestNinja.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestNinja/obj/Debug/TestNinja.pdb" afterDir="false" />
@@ -425,7 +419,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707034546815</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finish exercises till section 7">
+      <option name="closed" value="true" />
+      <created>1707099223022</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707099223022</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -504,7 +506,8 @@
     <MESSAGE value="Add gitignore" />
     <MESSAGE value="Move Notes.md into repo" />
     <MESSAGE value="Add work till section 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add work till section 6" />
+    <MESSAGE value="Finish exercises till section 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish exercises till section 7" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/TestNinja.UnitTests/FizzBuzzTests.cs">

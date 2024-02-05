@@ -10,5 +10,11 @@
     &lt;TestId&gt;NUnit3x::8E8D4279-A34E-4B36-822F-22D2AA4CD528::.NETFramework,Version=v4.8::TestNinja.UnitTests.Mocking.EmployeeControllerTests.DeleteEmployee_WhenCalled_ReturnsRedirectResult&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::8E8D4279-A34E-4B36-822F-22D2AA4CD528::.NETFramework,Version=v4.8::TestNinja.UnitTests.Mocking.BookingHelperOverlappingBookingsExistTests.BookingStartsAndEndsBeforeAnotherBooking_ReturnsEmptyString&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::8E8D4279-A34E-4B36-822F-22D2AA4CD528::.NETFramework,Version=v4.8::TestNinja.UnitTests.Mocking.BookingHelperOverlappingBookingsExistTests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::8E8D4279-A34E-4B36-822F-22D2AA4CD528::.NETFramework,Version=v4.8::TestNinja.UnitTests.Mocking.HouseKeeperServiceTests.SendStatementEmails_WhenCalled_GenerateStatements&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::8E8D4279-A34E-4B36-822F-22D2AA4CD528::.NETFramework,Version=v4.8::TestNinja.UnitTests.Mocking.HouseKeeperServiceTests.SendStatementEmails_WhenCalledWithNullEmail_DoesNotGenerateStatements&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::8E8D4279-A34E-4B36-822F-22D2AA4CD528::.NETFramework,Version=v4.8::TestNinja.UnitTests.Mocking.HouseKeeperServiceTests.SendStatementEmails_WhenCalledWithInvalidEmail_DoesNotGenerateStatements&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::8E8D4279-A34E-4B36-822F-22D2AA4CD528::.NETFramework,Version=v4.8::TestNinja.UnitTests.Mocking.HouseKeeperServiceTests.SendStatementEmails_WhenCalled_EmailStatements&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::8E8D4279-A34E-4B36-822F-22D2AA4CD528::.NETFramework,Version=v4.8::TestNinja.UnitTests.Mocking.HouseKeeperServiceTests.SendStatementEmails_StatementFilenameIsNull_DoesNotEmailStatements&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::8E8D4279-A34E-4B36-822F-22D2AA4CD528::.NETFramework,Version=v4.8::TestNinja.UnitTests.Mocking.HouseKeeperServiceTests&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
