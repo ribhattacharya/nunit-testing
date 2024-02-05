@@ -10,36 +10,27 @@ namespace TestNinja.Mocking
     public class VideoService
     {
         private readonly IFileReader _fileReader;
-
-        public VideoService(IFileReader fileReader = null)
+        private readonly IVideoRepository _videoRepository;
+        
+        public VideoService(IFileReader fileReader = null, IVideoRepository videoRepository = null)
         {
             _fileReader = fileReader ?? new FileReader();
+            _videoRepository = videoRepository ?? new VideoRepository();
         }
         public string ReadVideoTitle()
         {
             var str = _fileReader.Read("video.txt");
             var video = JsonConvert.DeserializeObject<Video>(str);
-            if (video == null)
-                return "Error parsing the video.";
-            return video.Title;
+            
+            return video == null ? "Error parsing the video." : video.Title;
         }
 
         public string GetUnprocessedVideosAsCsv()
         {
-            var videoIds = new List<int>();
-            
-            using (var context = new VideoContext())
-            {
-                var videos = 
-                    (from video in context.Videos
-                    where !video.IsProcessed
-                    select video).ToList();
-                
-                foreach (var v in videos)
-                    videoIds.Add(v.Id);
+            var videos = _videoRepository.GetUnprocessedVideos();
+            var videoIds = videos.Select(v => v.Id).ToList();
 
-                return String.Join(",", videoIds);
-            }
+            return string.Join(",", videoIds);
         }
     }
 

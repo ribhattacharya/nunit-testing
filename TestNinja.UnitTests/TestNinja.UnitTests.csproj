@@ -13,6 +13,7 @@
         <AssemblyName>TestNinja.UnitTests</AssemblyName>
         <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
+        <LangVersion>latest</LangVersion>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
         <PlatformTarget>AnyCPU</PlatformTarget>
@@ -65,7 +66,10 @@
         <Compile Include="Fundamentals\MathTests.cs" />
         <Compile Include="Fundamentals\ReservationTests.cs" />
         <Compile Include="Fundamentals\StackTests.cs" />
+        <Compile Include="Mocking\BookingHelperTests.cs" />
+        <Compile Include="Mocking\EmployeeControllerTests.cs" />
         <Compile Include="Mocking\FakeFileReader.cs" />
+        <Compile Include="Mocking\InstallerHelperTests.cs" />
         <Compile Include="Mocking\OrderServiceTests.cs" />
         <Compile Include="Mocking\VideoServiceTests.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
